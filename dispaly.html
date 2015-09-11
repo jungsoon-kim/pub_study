@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>display</title>
+	
+	<style>
+		#wrap {width: 500px; height: 500px; position:relative; border: 1px solid red; margin:0 auto} 
+		.inner {width:200px; height:200px; position:absolute; border: 1px solid red; left:50%; margin-left:-100px;}
+		.inner .squre1 {width: 100px; height: 100px; background: red; position:absolute; left:50px; top:10px; z-index:100}
+		.inner .squre2 {width: 100px; height: 100px; background: blue; position:absolute; left:30px; top:20px;}
+		.inner .squre3 {width: 100px; height: 100px; background: black; position:absolute; left:20px; top:30px}
+		.inner .squre4 {width: 100px; height: 100px; background: pink; position:absolute; left:10px; top:40px;}
+	</style>
+	
+</head>
+<body>
+	<div id="wrap">
+		dd
+		<div class="inner">
+			<div class="squre1">a</div>
+			<div class="squre2">b</div>
+			<div class="squre3">c</div>
+			<div class="squre4">d</div>
+			
+		</div>
+		
+	</div>
+	
+	
+</body>
+</html>

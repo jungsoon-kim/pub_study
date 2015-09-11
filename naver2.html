@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>네이버 레이아웃2</title>
+	<style>
+		#wrap {width: 990px; height: 540px; border: 1px solid red; margin:0 auto; }
+		#wrap .header {width: 985px; height: 100px; border:1px solid black; margin:0 auto;}
+		
+		#wrap .content {width: 990px; height: 400px; border: 1px solid blue; margin-top:20px; overflow:hidden;}
+		#wrap .content .left {width:200px; height:380px; float:left; border:1px solid black; margin:10px;}
+		#wrap .content .left .bottom {width:180px; height:330px; border:1px solid red; margin:10px;}
+		
+		#wrap .content .center {width:500px; height:380px; margin:10px 230px; border:1px solid green;}
+		#wrap .content .center .top {width:480px; height:170px; border:1px solid pink; margin:10px; overflow:hidden;}
+		#wrap .content .center .top .first {width:215px; height:150px; float:left; border: 1px solid black; margin:10px;}
+		
+		#wrap .content .center .top .second {width:215px; height:150px; float:right;  border: 1px solid black; margin:10px; }
+		#wrap .content .center .top .second .up {width:200px;  height:50px; border:1px solid red; margin:8px; }
+		#wrap .content .center .top .second .down {width:200px; height:50px; border:1px solid red; margin:8px;}
+		
+		
+		
+		#wrap .content .center .bottom {width:480px; height:170px; overflow:hidden; border: 1px solid pink; margin:10px; margin-top: 20px; }
+		#wrap .content .center .bottom .bottom_left {width:210px; height:150px; float:left; border:1px solid green; margin:10px;}
+		
+		
+		
+		
+		#wrap .content .center .bottom .bottom_right {width:210px; height:150px; float:right; border:1px solid green; margin:10px;}
+		
+		
+		
+		#wrap .content .right {width:230px; height:380px; float:right; border:1px solid pink; margin:10px; overflow:hidden;}
+		#wrap .content .right .top {width: 210px; height: 150px; border: 1px solid yellow; margin:10px}
+		#wrap .content .right .bottom {width: 210px; height: 190px; border: 1px solid yellow; margin:10px}
+		
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<div class="header">
+			
+		</div> <!--header[ex]-->
+		
+		<div class="content">
+			<div class="left">
+				sbs 8시 뉴스
+				<div class="bottom">
+					
+					<ul>
+						<li>txt</li>
+						<li>txt</li>
+						<li>txt</li>
+					</ul>
+					
+				</div>
+			</div><!--left[ex]-->
+			
+		<div class="right">
+				
+				<div class="top">
+					
+					
+					
+				</div>
+				<div class="bottom"></div>
+				
+				
+			</div><!--right[ex]-->
+			
+			<div class="center">
+				
+				<div class="top">
+					<div class="first">left</div>
+					
+					<div class="second">right
+						<div class="up">up</div>
+						<div class="down">down</div>
+					</div>
+					
+					
+				</div>
+				<div class="bottom">
+				 	
+				 	<div class="bottom_left">left</div>
+				 	<div class="bottom_right">right
+				 		<ul>
+				 			<li>1</li>
+				 			<li>2</li>
+				 			<li>3</li>
+				 			<li>4</li>
+				 		</ul>
+				 	
+				 		
+				 	</div>
+				</div>
+			</div>	<!--center[ex]-->
+				
+			
+			
+			
+			
+		</div><!--content[ex]-->
+		
+	</div><!--wrap[ex]-->
+	
+	
+	
+</body>
+</html>

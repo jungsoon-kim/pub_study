@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>네이버 뉴스 레이아웃 연습</title>
+	<style>
+	#wrap {width: 990px; height: 540px; border:1px solid black; margin:0 auto; overflow:hidden;}
+	#wrap .header {width:990px; height:100px; border:1px solid red;}
+	#wrap .content {width:990px; height: 100%; border: 1px solid green;}
+	#wrap .content .left {width: 470px; float:left; border: 1px solid yellow; height: 100%;}
+	#wrap .content .left .section1 {height: 166px; border: 1px solid black; margin:10px}
+	#wrap .content .left .section2 {height: 230px; border: 1px solid black; margin:10px; overflow:hidden; }
+	#wrap .content .left .section2 .sec_side1 {width:260px; height:210px; float:left; border:1px solid red; margin:10px }
+	#wrap .content .left .section2 .sec_side2 {width:140px; height:210px; float:right; border:1px solid red; margin:10px }
+	
+	
+	#wrap .content .right {float:right; height:100%; width:500px; border: 1px solid red;}
+	#wrap .content .right .section1 {height:166px; border:1px solid green; margin:10px; overflow:hidden;}
+	#wrap .content .right .section1 .sec_side1 {width:230px; height:140px; float:left; border:1px solid pink; margin:10px }
+	#wrap .content .right .section1 .sec_side2 {width:190px; height:140px; float:right; border:1px solid black; margin:10px}
+	
+	
+	
+	
+	#wrap .content .right .section2 {height: 230px; border: 1px solid black; margin:10px; overflow:hidden;}
+	#wrap .content .right .section2 .sec_side1 {width: 450px; height:100px; border:1px solid black; margin:10px; overflow:hidden;}
+	#wrap .content .right .section2 .sec_side1 .first {width: 200px; height:70px; float:left; border: 1px solid blue; margin:10px;}
+	#wrap .content .right .section2 .sec_side1 .second {width: 200px; height:70px; float:right; border: 1px solid blue; margin:10px;}
+	
+	
+	
+	#wrap .content .right .section2 .sec_side2 {width: 450px; height:100px; border:1px solid black; margin:10px; overflow:hidden;}
+	#wrap .content .right .section2 .sec_side2 .first {width: 130px; height: 80px; float:left; border: 1px solid pink; margin:10px;}
+	#wrap .content .right .section2 .sec_side2 .third{width: 150px; height: 80px; border: 1px solid red; margin:10px 150px; }
+	#wrap .content .right .section2 .sec_side2 .second {width: 130px; height: 80px; float:right; border: 1px solid blue; margin:10px;}
+	
+	
+	
+	
+		
+	</style>
+	
+	
+</head>
+<body>
+	<div id="wrap">
+		<div class="header">
+		
+		</div><!--header[ex]-->
+		
+		<div class="content">
+			
+			<div class="left">
+				<div class="section1">
+					
+				</div>
+				
+				<div class="section2">
+						<div class="sec_side1"></div>
+						<div class="sec_side2"></div>
+					
+				</div>
+				
+			</div><!--left[ex]-->
+			
+			<div class="right">
+				<div class="section1">
+					<div class="sec_side1"></div>
+					<div class="sec_side2"></div>
+					
+				</div>
+				
+				<div class="section2">
+					<div class="sec_side1">
+						<div class="first">
+							1
+						</div>
+						
+						<div class="second">
+							2
+						</div>
+						
+					</div>
+					
+					<div class="sec_side2">
+						<div class="first">1</div>
+						<div class="second">2</div>
+						<div class="third">3</div>
+						
+						
+						
+					</div>
+					
+				</div>
+				
+			</div><!--rigth[ex]-->
+			
+			
+			
+		</div><!--content[ex]-->
+	
+	</div> <!--wraper[ex] -->
+	
+</body>
+</html>
